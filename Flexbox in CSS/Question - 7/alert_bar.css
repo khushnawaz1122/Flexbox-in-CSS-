@@ -1,0 +1,13 @@
+.alert_bar {
+    width: 97%;
+    height: 35px;
+    color: red;
+    background-color: rgba(240, 183, 183, 0.894);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    border-left: 5px solid red;
+    padding: 0px 10px 0px 10px;
+    position: fixed;
+}

@@ -1,0 +1,46 @@
+* {
+    background-color: black;
+}
+body {
+    display: flex;
+}
+.image1 {
+    width:100px;
+    height: 100px;
+    background-image: url(image1.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: relative;
+    left: 500px;
+}
+.image2 {
+    width:100px;
+    height: 100px;
+    background-image: url(image2.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: relative;
+    left: 310px;
+}
+.image3 {
+    width:100px;
+    height: 100px;
+    background-image: url(image3.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: relative;
+    left: 120px;
+}
+.image4 {
+    width:100px;
+    height: 100px;
+    background-image: url(image4.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: relative;
+    left: -70px;
+}

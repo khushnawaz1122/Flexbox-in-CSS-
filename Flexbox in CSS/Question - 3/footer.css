@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    color: white;
+}
+.footer {
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.colm1 {
+    width: 20%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+.colm2 {
+    width: 20%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.colm3 {
+    width: 20%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.logo {
+    width: 100px;
+    height: 30px;
+    background-image: url(pwSkillsLogo.png);
+    background-size: cover;
+}
+.iso {
+    width: 100px;
+    height: 130px;
+    background-image: url(iso-fotor-bg-remover-2024030915228.png);
+    background-size: cover;
+}
+.support {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.subColm1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.subColm2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.features {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

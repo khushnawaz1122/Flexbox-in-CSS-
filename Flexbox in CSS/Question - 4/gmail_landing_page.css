@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid black;
+    background-color: white;
+    z-index: 5px;
+}
+.logo {
+    width: 30px;
+    height: 30px;
+    background-image: url(logo-gmail.png);
+    background-size: cover;
+}
+.gmail {
+    width: 48px;
+    height: 26px;
+    padding-top: 6px;
+    font-size: 18px;
+}
+.work {
+    text-decoration: none;
+    width: 120px;
+    color:  #1A73E8;
+    font-weight: bold;
+}
+.signIn {
+    height: 50px;
+    width: 100px;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #1A73E8;
+    font-weight: bold;
+}
+.button {
+    width: 180px;
+    height: 50px;
+    text-decoration: none;
+    background-color: #1A73E8;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.header_rightSide {
+    width: 450px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 100px;
+}
+.header_leftSide {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 60px;
+}
+.main {
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    z-index: -5px;
+}
+.text_part {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.heading {
+    height: 230px;
+    width: 70%;
+    font-size: 60px;
+    font-weight: lighter;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.para {
+    height: 60px;
+    width: 70%;
+    font-size: 18px;
+    padding-left: 50px;
+}
+.button2 {
+    width: 70%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.image {
+    width: 50%;
+    height: 600px;
+    background-image: url(gmail_big_image.webp);
+    background-size: cover;
+}

@@ -1,0 +1,47 @@
+* {
+    background-color: black;
+    color: white;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    width: 500px;
+    height: 200px;
+    background-image: url(png-clipart-google-adwords-google-logo-behavioral-retargeting-google-search-engine-optimization-company-fotor-bg-remover-202403192015.png);
+    background-size: cover;
+} 
+.search_bar {
+    width: 500px;
+    height: 30px;
+    border: 2px solid gray;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+i {
+    color: gray;
+}
+input {
+    width: 380px;
+    border: none;
+}
+input:focus {
+    outline: none;
+}
+.mic {
+    width: 12px;
+    height: 17px;
+    background-image: url(Google_mic.svg.png);
+    background-size: cover;
+}
+.lens {
+    width: 16px;
+    height: 19px;
+    background-image: url(Google_Lens_Icon.svg.png);
+    background-size: cover;
+}
